@@ -1,29 +1,5 @@
 # IDE Helper Generator for Laravel
 
-[![Tests](https://github.com/barryvdh/laravel-ide-helper/actions/workflows/run-tests.yml/badge.svg)](https://github.com/barryvdh/laravel-ide-helper/actions)
-[![Packagist License](https://img.shields.io/badge/Licence-MIT-blue)](http://choosealicense.com/licenses/mit/)
-[![Latest Stable Version](https://img.shields.io/packagist/v/barryvdh/laravel-ide-helper?label=Stable)](https://packagist.org/packages/barryvdh/laravel-ide-helper)
-[![Total Downloads](https://img.shields.io/packagist/dt/barryvdh/laravel-ide-helper?label=Downloads)](https://packagist.org/packages/barryvdh/laravel-ide-helper)
-[![Fruitcake](https://img.shields.io/badge/Powered%20By-Fruitcake-b2bc35.svg)](https://fruitcake.nl/)
-
-**Complete PHPDocs, directly from the source**
-
-This package generates helper files that enable your IDE to provide accurate autocompletion.
-Generation is done based on the files in your project, so they are always up-to-date.
-
-The 3.x branch supports Laravel 10 and 11. For older version, use the 2.x releases.
-
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Automatic PHPDoc generation for Laravel Facades](#automatic-phpdoc-generation-for-laravel-facades)
-  - [Automatic PHPDocs for models](#automatic-phpdocs-for-models)
-    - [Model Directories](#model-directories)
-    - [Ignore Models](#ignore-models)
-    - [Model Hooks](#model-hooks)
-  - [Automatic PHPDocs generation for Laravel Fluent methods](#automatic-phpdocs-generation-for-laravel-fluent-methods)
-  - [Auto-completion for factory builders](#auto-completion-for-factory-builders)
-  - [PhpStorm Meta for Container instances](#phpstorm-meta-for-container-instances)
-- [License](#license)
 
 ## Installation
 
