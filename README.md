@@ -27,8 +27,8 @@ composer require --dev barryvdh/laravel-ide-helper
  
 ## In PHP
 
-- `php artisan ide-helper:generate` - [PHPDoc generation for Laravel Facades ](#automatic-phpdoc-generation-for-laravel-facades)
-- `php artisan ide-helper:models` - [PHPDocs for models](#automatic-phpdocs-for-models)
-- `php artisan ide-helper:meta` - [PhpStorm Meta file](#phpstorm-meta-for-container-instances)
-
-
+```php
+php artisan ide-helper:generate
+php artisan ide-helper:models
+php artisan ide-helper:meta
+```
